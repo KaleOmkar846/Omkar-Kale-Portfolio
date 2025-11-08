@@ -1,5 +1,5 @@
 import './Home.css';
-import profilePhoto from '../assets/me.jpg'; // You can add your photo here
+import profilePhoto from '../assets/me.jpg';
 
 function Home() {
   const scrollToContact = () => {
