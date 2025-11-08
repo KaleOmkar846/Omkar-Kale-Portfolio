@@ -21,10 +21,10 @@ function About() {
   ];
 
   const education = {
-    degree: 'Bachelor of Engineering in Computer Science and Design',
+    degree: 'Bachelor of Technology in Computer Science and Design',
     institution: 'Dr. D. Y. Patil School of Science and Technology',
-    duration: '2021 - 2025',
-    gpa: '8.5 / 10.0',
+    duration: '2023 - 2027',
+    gpa: '9.8 / 10.0',
     relevantCourses: [
       'Data Structures & Algorithms',
       'Database Management Systems',
@@ -183,7 +183,7 @@ function About() {
                 </svg>
               </div>
               <div className="stat-content">
-                <h4>8.5</h4>
+                <h4>9.8</h4>
                 <p>GPA / 10.0</p>
               </div>
             </div>

@@ -170,4 +170,71 @@ html {
   background: var(--accent-primary);
 }
 
+/* Global Background Animation */
+.bg-animation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+  animation: float 25s infinite ease-in-out;
+}
+
+.shape-1 {
+  width: 400px;
+  height: 400px;
+  background: var(--accent-primary);
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.shape-2 {
+  width: 500px;
+  height: 500px;
+  background: var(--accent-secondary);
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 8s;
+}
+
+.shape-3 {
+  width: 350px;
+  height: 350px;
+  background: var(--accent-primary);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 15s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  33% {
+    transform: translateY(-30px) translateX(30px) scale(1.1);
+  }
+  66% {
+    transform: translateY(20px) translateX(-20px) scale(0.9);
+  }
+}
+
+/* Consistent section background */
+.section-bg {
+  background: transparent;
+  position: relative;
+}
+
+
 
